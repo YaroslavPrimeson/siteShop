@@ -1,0 +1,49 @@
+@import "./src/Landing/Landinn";
+
+.FilterBlock {
+  //display: flex;
+}
+
+.LeftBlock {
+  //width: 10% !important;
+  //margin-right: 1%;
+}
+
+.RightBlock {
+  //width: 90% !important;
+  .CardsList {
+    margin: 0 -1vh;
+  }
+}
+.FormHeader {
+  font-family: $font-2;
+  font-size: calc( 1.1vh + 1.1vw);
+  //font-weight: 400;
+  color: $white-color;
+  line-height: calc(2.5vh + 2.5vw);
+}
+
+.ButtonBlock {
+  display: flex;
+  .CardButton {
+    margin-right: 0;
+  }
+}
+
+
+
+.FilterBlockHeader1{
+  font-family: $font-1;
+  font-size: calc( 1.5vh + 1.5vw);
+  //font-weight: 400;
+  color: $white-color;
+  line-height: calc(2.5vh + 2.5vw);
+}
+
+
+
+
+.FilterLeftBlockBottomSort{
+  position: relative;
+  margin-top: 10vh;
+}

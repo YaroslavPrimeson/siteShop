@@ -1,0 +1,32 @@
+@import "src/Landing/Landinn";
+
+.PreloaderContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: $background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PositionCoffeeHolderSvg{
+width: calc(10vh + 10vw);
+}
+
+.WebSVGPathCoffeeHolder{
+  stroke-width: 1;
+  stroke-linejoin: round;
+  stroke: $text-color;
+  fill: none;
+  stroke-dasharray: 1200%;
+  animation: 10s webSvgDash 0s linear forwards;
+}
+@keyframes webSvgDash {
+  0%{
+    stroke-dashoffset: 1200%;
+  }
+  100% {
+    stroke-dashoffset: 0%;
+  }
+}

@@ -1,0 +1,36 @@
+@import "../Landing/Landinn";
+
+
+
+.nav-item{
+
+}
+.nav-link{
+  color: $white-color;
+}
+.nav-link:hover{
+  color: $white-color;
+}
+.modal-content{
+  //background-color: $background;
+  //color: $white-color;
+}
+.modal-header{
+  //border: none!important;
+  //color: $text-color!important;
+  //font-family: $font-1;
+}
+.modal-body{
+  //color: $white-color;
+  //font-family: $font-2;
+  //font-weight: bolder;
+}
+.modal-footer{
+  //border: none!important;
+  //color: $white-color;
+  //font-family: $font-1;
+  //font-weight: bolder;
+}
+.tabAdmin{
+  padding: 2.5vh;
+}

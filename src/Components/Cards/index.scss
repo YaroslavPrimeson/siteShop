@@ -1,0 +1,95 @@
+@import "../../Landing/Landinn.scss";
+
+
+.CardCol {
+  min-height: 60vh;
+
+  padding: 1vh;
+}
+
+.CardContainer {
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+  overflow: hidden;
+  transition: all .2s linear;
+  //z-index: 900!important;
+}
+
+.CardContainer:hover {
+  transform: scale(1.02);
+  //background-color: $background;
+  border: 1px solid $text-color;
+  //z-index: 990!important;
+}
+
+.CardImageRow {
+  max-height: 45vh;
+  width: 100%;
+  margin: 0 !important;
+  overflow: hidden;
+  padding: 2vh;
+}
+
+.CardImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+//---
+
+//---
+.CardRowInner {
+  width: 100%;
+  margin: 0 !important;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+
+}
+
+.CardName {
+  text-align: center;
+  font-family: $font-1;
+  //font-weight: bolder;
+  color: $white-color;
+  width: 100%;
+  //font-size: calc(1vh + 1vw);
+}
+
+.CardPrice {
+  color: $text-color;
+  text-align: center;
+  font-family: $font-2;
+  //font-weight: bolder;
+  width: 100%;
+  font-size: calc(2vh + 2vw);
+}
+
+.CardButtonCol {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.CardButton {
+  //margin-right: 1vh;
+  margin-bottom: 1vh;
+  height: $size-text3;
+  line-height: $size-text3;
+  font-family: $font-1;
+  font-size: $size-text-button;
+  //font-weight: bolder;
+  text-align: center;
+  color: $white-color;
+  border: 1px solid $text-color;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.CardButton:hover {
+  background-color: $text-color2;
+  color: $white-color;
+  border: 1px solid $text-color2;
+}

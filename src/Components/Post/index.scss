@@ -1,0 +1,19 @@
+@import "./src/Landing/Landinn";
+
+.post {
+  height: 300px;
+  color: $text-color;
+    text-align: center;
+
+  &Text {
+    color: white;
+    padding: 1em 2em;
+    font-family: $font-2;
+  }
+
+  &Title {
+    font-family: $font-1;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+}

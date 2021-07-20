@@ -1,0 +1,25 @@
+@import "Wrapper";
+
+.DescriptionBlock {
+  padding-top: 5px;
+  font-size: $size-text;
+}
+
+.DescriptionLine {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.DescriptionProperty {
+  color: $text-color;
+  @include title-text-5;
+  display: inline;
+  font-weight: bolder;
+}
+
+.DescriptionValue {
+  display: inline;
+  color: white;
+  @include title-text-5;
+}

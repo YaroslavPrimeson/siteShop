@@ -1,0 +1,70 @@
+@import "./src/Landing/Landinn";
+
+
+.CartList {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+.CartListHeader {
+  display: flex;
+}
+
+.TableHeader {
+  border-bottom: 1px solid $text-color;
+
+  h3 {
+    width: 25%;
+  }}
+
+.TableHeaders {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  width: 100%;
+
+}
+
+.TableMain {
+  display: flex;
+  padding:   1rem 0;
+  border-bottom: 1px solid $text-color;
+  margin: 1rem 0;
+}
+
+.TableImageBlock {
+  width: 20%;
+  button {
+    margin-right:  1em;
+    border: none;
+  }
+}
+
+.TableProductImage {
+  width: 100px;
+}
+
+.TableProductsBlock {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p, input {
+    width: 25%;
+    color: white;
+  }
+}
+
+.CartListButtonBlock {
+  display: flex;
+  justify-content: flex-end;
+  }
+.OrderPrice {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  p {
+    color: white;
+  }
+}

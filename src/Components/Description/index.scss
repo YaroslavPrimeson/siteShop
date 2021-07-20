@@ -1,0 +1,53 @@
+@import "./src/Landing/Landinn";
+
+.desc {
+  &Tab {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    box-sizing: content-box;
+    overflow: hidden;
+    flex-basis: 35%;
+
+    &:nth-child(2) {
+      text-align: center;
+      flex-basis: 20%;
+    }
+  }
+
+  &Wrapper {
+    padding: 5px;
+    width: 100%;
+  }
+
+  &Title {
+    padding: 30px 0;
+    text-align: center;
+    &Text{
+      font-family: $font-2;
+      font-size: 1.2em;
+      padding: 0.5em 0;
+    }
+
+    & h2 {
+      font-weight: bold;
+      font-family: $font-1;
+    }
+  }
+
+  &Body {
+    padding: 30px 0;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &Image {
+    text-align: center;
+    padding-bottom: 1em;
+
+    & img {
+      width: 100%;
+    }
+  }
+}

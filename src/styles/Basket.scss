@@ -1,0 +1,25 @@
+@import "Wrapper";
+
+.basket__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+}
+
+.basket__block {
+  @include max-width-paddings;
+  padding-top: $block-padding-top;
+  font-family: $font-5;
+}
+
+.basket__list {
+  padding: $size-pading2;
+
+  li {
+    border-bottom: 3px solid $main-color-gold;
+    padding: $size-pading2 0;
+  }
+
+}

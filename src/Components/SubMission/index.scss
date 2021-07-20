@@ -1,0 +1,43 @@
+@import "./src/Landing/Landinn";
+
+.submission {
+  &__wrapper {
+    display: flex;
+    padding: 10px;
+  }
+
+  &__info, &__images {
+    flex-grow: 1;
+    border: 1px solid red;
+    flex-basis: 50%;
+  }
+
+  &__title {
+    font-family: $font-1;
+    text-transform: uppercase;
+    padding: 10px 0 10px;
+    &--info{
+      padding: 20px 0;
+    }
+  }
+
+  &__text {
+    font-family: $font-2;
+    padding:30px;
+    color: $white-color;
+  }
+
+  &__btn{
+    display: flex;
+    justify-content: center;
+    font-size: $size-text-small;
+  }
+
+  &__first {
+    order: 1;
+  }
+
+  &__second {
+    order: 2;
+  }
+}

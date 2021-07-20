@@ -1,0 +1,78 @@
+@import "src/Landing/Landinn";
+
+$size-pading-arrow: calc(1vh + 1vw);
+$size-pading-arrow-top: calc(1vh + 1vw);
+
+.SelectWrapper {
+  &--test {
+    position: absolute;
+    width: 75%;
+    left: 20%;
+    padding: 10px 0;
+    &2{
+      width: 75%;
+      position: absolute;
+      top: -15px;
+      left: 0;
+      z-index: 1;
+      background-color: $background;
+    }
+  }
+
+  margin: 0;
+  padding: $size-pading;
+  border: 1px solid $text-color;
+  position: relative;
+  width: 100%;
+  min-width: 100px;
+  //color: $white-color;
+  //height: $size-text3;
+  line-height: $size-text2;
+  font-family: $font-2;
+  font-size: $size-text-button;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    right: $size-pading-arrow;
+    top: $size-pading-arrow-top;
+    transform: rotate(-225deg);
+    width: 13px;
+    height: 13px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: $text-color;
+    display: block;
+    transition: transform .2s;
+  }
+
+  &.ActiveSelect {
+    &::before {
+      transform: rotate(-45deg);
+    }
+
+    li {
+
+      &:hover {
+        color: goldenrod;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+li {
+  list-style: none;
+
+
+}
+
+.FirstItem {
+  color: $white-color;
+}
+
+.SelectItem {
+  padding-top: 1vh;
+}
